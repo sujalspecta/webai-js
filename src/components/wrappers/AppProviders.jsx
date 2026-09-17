@@ -13,7 +13,7 @@ const AppProviders = ({
   } = useLocation();
   useEffect(() => {
     Aos.init();
-    import('preline/preline');
+   import('preline');
   }, []);
   useEffect(() => {
     setTimeout(() => {
