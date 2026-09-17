@@ -243,6 +243,26 @@
     "@eslint/core" "^1.2.1"
     levn "^0.4.1"
 
+"@floating-ui/core@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.npmjs.org/@floating-ui/core/-/core-1.8.0.tgz"
+  integrity sha512-0CIZ5itps/8x7BG8dEIhs53BvCUH2PCoogtakwRTut+Arm58sJooJ0AuZhLw2HJYIR5cMLNPBSS728sPho2khQ==
+  dependencies:
+    "@floating-ui/utils" "^0.2.12"
+
+"@floating-ui/dom@^1.6.13":
+  version "1.8.0"
+  resolved "https://registry.npmjs.org/@floating-ui/dom/-/dom-1.8.0.tgz"
+  integrity sha512-yXSrzeHZBTZadLOlfyhCkJHNeLJnHRnRInwdZ40L7ZiaAtrBwoYlsDrX3v5zB1Utk7CLfzcOVnVVWoXEky7Ceg==
+  dependencies:
+    "@floating-ui/core" "^1.8.0"
+    "@floating-ui/utils" "^0.2.12"
+
+"@floating-ui/utils@^0.2.12":
+  version "0.2.12"
+  resolved "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.12.tgz"
+  integrity sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==
+
 "@humanfs/core@^0.19.2":
   version "0.19.2"
   resolved "https://registry.npmjs.org/@humanfs/core/-/core-0.19.2.tgz"
@@ -369,11 +389,6 @@
   resolved "https://registry.npmjs.org/@pkgjs/parseargs/-/parseargs-0.11.0.tgz"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@popperjs/core@^2.11.2":
-  version "2.11.8"
-  resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz"
-  integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
-
 "@remix-run/router@1.20.0":
   version "1.20.0"
   resolved "https://registry.npmjs.org/@remix-run/router/-/router-1.20.0.tgz"
@@ -389,6 +404,31 @@
   resolved "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.24.0.tgz"
   integrity sha512-fbMkAF7fufku0N2dE5TBXcNlg0pt0cJue4xBRE2Qc5Vqikxr4VCgKj/ht6SMdFcOacVA9rqF70APJ8RN/4vMJw==
 
+"@svgdotjs/svg.draggable.js@^3.0.4":
+  version "3.0.7"
+  resolved "https://registry.npmjs.org/@svgdotjs/svg.draggable.js/-/svg.draggable.js-3.0.7.tgz"
+  integrity sha512-yL2BZ2TSMNm2e8GXteXPjgd65bg0k0zJYyzRgeqcIRrpJd9GkesUFXqoLvtv9PLFH0AkTLfMXWUMUkUbTKFlVQ==
+
+"@svgdotjs/svg.filter.js@^3.0.8":
+  version "3.0.10"
+  resolved "https://registry.npmjs.org/@svgdotjs/svg.filter.js/-/svg.filter.js-3.0.10.tgz"
+  integrity sha512-ynuqRmTRiQgy0XDV/aVV63+RMAAGxRa3qRxb0rowTFRfEJ7qJZ/CbMSuH87/TP1j1zauQhE48DFWQcxrxBv5aQ==
+
+"@svgdotjs/svg.js@^3.2.4":
+  version "3.2.8"
+  resolved "https://registry.npmjs.org/@svgdotjs/svg.js/-/svg.js-3.2.8.tgz"
+  integrity sha512-NUdbI/7FDdqGpzKmqr09IQoy9MUcrAC/3bC8gLgXi6OfJuyri450zMLvJekFUhuq3iN5gpdPjoSoStNl9Eijfg==
+
+"@svgdotjs/svg.resize.js@^2.0.2":
+  version "2.0.6"
+  resolved "https://registry.npmjs.org/@svgdotjs/svg.resize.js/-/svg.resize.js-2.0.6.tgz"
+  integrity sha512-R00kDofN69b2RrJyz6ghpOiuFrPc+NCu6XrSubPSpmnTW5KMxMjS8AfFWVyRjjQMxCDOFmyV0TKUSLhCBzde3g==
+
+"@svgdotjs/svg.select.js@^4.0.1":
+  version "4.0.4"
+  resolved "https://registry.npmjs.org/@svgdotjs/svg.select.js/-/svg.select.js-4.0.4.tgz"
+  integrity sha512-IjcGXxiLS2etLRKcESbNYWRyRqBcmDQ77cJkQIuCzFMp0vS9L2E6BgHLER5yljjVx96RfTQMAPzc12qtzVjtJQ==
+
 "@tailwindcss/forms@^0.5.11":
   version "0.5.11"
   resolved "https://registry.npmjs.org/@tailwindcss/forms/-/forms-0.5.11.tgz"
@@ -400,6 +440,11 @@
   version "3.0.8"
   resolved "https://registry.npmjs.org/@types/aos/-/aos-3.0.8.tgz"
   integrity sha512-Wydvt0OnVYO5YZxroBOYITIkAKtKmni9GUQRKuWMK3doplBSaHU11HIIweGwqF/ycmbHQGoLUQzuXFRVY+Ougg==
+
+"@types/culori@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/@types/culori/-/culori-4.0.1.tgz"
+  integrity sha512-43M51r/22CjhbOXyGT361GZ9vncSVQ39u62x5eJdBQFviI8zWp2X5jzqg7k4M6PVgDQAClpy2bUe2dtwEgEDVQ==
 
 "@types/esrecurse@^4.3.1":
   version "4.3.1"
@@ -528,6 +573,11 @@
   dependencies:
     "@rolldown/pluginutils" "^1.0.1"
 
+"@yr/monotone-cubic-spline@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/@yr/monotone-cubic-spline/-/monotone-cubic-spline-1.0.3.tgz"
+  integrity sha512-FQXkOta0XBSUPHndIKON2Y9JeQz5ZeMqLYZVVK93FliNBFm7LNMIZmY6FrMEB9XPcDbE2bekMbZD6kzDkxwYjA==
+
 acorn-jsx@^5.3.2:
   version "5.3.2"
   resolved "https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz"
@@ -598,6 +648,18 @@ aos@^2.3.4:
     classlist-polyfill "^1.0.3"
     lodash.debounce "^4.0.6"
     lodash.throttle "^4.0.1"
+
+apexcharts@^4.5.0:
+  version "4.7.0"
+  resolved "https://registry.npmjs.org/apexcharts/-/apexcharts-4.7.0.tgz"
+  integrity sha512-iZSrrBGvVlL+nt2B1NpqfDuBZ9jX61X9I2+XV0hlYXHtTwhwLTHDKGXjNXAgFBDLuvSYCB/rq2nPWVPRv2DrGA==
+  dependencies:
+    "@svgdotjs/svg.draggable.js" "^3.0.4"
+    "@svgdotjs/svg.filter.js" "^3.0.8"
+    "@svgdotjs/svg.js" "^3.2.4"
+    "@svgdotjs/svg.resize.js" "^2.0.2"
+    "@svgdotjs/svg.select.js" "^4.0.1"
+    "@yr/monotone-cubic-spline" "^1.0.3"
 
 arg@^5.0.2:
   version "5.0.2"
@@ -775,6 +837,26 @@ csstype@^3.2.2:
   resolved "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz"
   integrity sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==
 
+culori@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.npmjs.org/culori/-/culori-4.0.2.tgz"
+  integrity sha512-1+BhOB8ahCn4O0cep0Sh2l9KCOfOdY+BXJnKMHFFzDEouSr/el18QwXEMRlOj9UY5nCeA8UN3a/82rUWRBeyBw==
+
+datatables.net-dt@^2.2.2:
+  version "2.3.8"
+  resolved "https://registry.npmjs.org/datatables.net-dt/-/datatables.net-dt-2.3.8.tgz"
+  integrity sha512-GD4on0YvNlUS/l+mrXeA1OC2JDzF2/GGbehVv4AacwtiFaoTwqxZseiR0cED6w59u/lgpVrZRC2RwuubUX996Q==
+  dependencies:
+    datatables.net "2.3.8"
+    jquery ">=1.7"
+
+datatables.net@^2.3.5, datatables.net@2.3.8:
+  version "2.3.8"
+  resolved "https://registry.npmjs.org/datatables.net/-/datatables.net-2.3.8.tgz"
+  integrity sha512-uhViowhlDlheAuo5a8TrkQqADsjrtGeOyvrigvr4t0+K3MyAWqClORXWAYIcN9VLX6iIX0C8O9gwJNd01hITRg==
+  dependencies:
+    jquery ">=1.7"
+
 debug@^4.1.0, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.7"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.7.tgz"
@@ -796,6 +878,11 @@ dlv@^1.1.3:
   version "1.1.3"
   resolved "https://registry.npmjs.org/dlv/-/dlv-1.1.3.tgz"
   integrity sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==
+
+dropzone@^6.0.0-beta.2:
+  version "6.3.4"
+  resolved "https://registry.npmjs.org/dropzone/-/dropzone-6.3.4.tgz"
+  integrity sha512-Qlc8TE7MaP2FzKWFXCD81kf/BMaw2hVSUO7i/4ItCLQM0UHEPuZJSP78Guj2U+G+ld3C7OvV+33VJYJLhY4KLw==
 
 eastasianwidth@^0.2.0:
   version "0.2.0"
@@ -1222,6 +1309,11 @@ jiti@^1.21.6:
   resolved "https://registry.npmjs.org/jiti/-/jiti-1.21.6.tgz"
   integrity sha512-2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w==
 
+jquery@>=1.7:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/jquery/-/jquery-4.0.0.tgz"
+  integrity sha512-TXCHVR3Lb6TZdtw1l3RTLf8RBWVGexdxL6AC8/e0xZKEpBflBsjh9/8LXw+dkNFuOyW9B7iB3O1sP7hS0Kiacg==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
@@ -1379,6 +1471,11 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
+nouislider@^15.8.1:
+  version "15.8.1"
+  resolved "https://registry.npmjs.org/nouislider/-/nouislider-15.8.1.tgz"
+  integrity sha512-93TweAi8kqntHJSPiSWQ1o/uZ29VWOmal9YKb6KKGGlCkugaNfAupT7o1qTHqdJvNQ7S0su5rO6qRFCjP8fxtw==
+
 object-assign@^4.0.1:
   version "4.1.1"
   resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
@@ -1516,12 +1613,20 @@ postcss@^8.4.43, postcss@^8.4.47, postcss@^8.5.28:
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
-preline@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.npmjs.org/preline/-/preline-2.5.1.tgz"
-  integrity sha512-fEXOsz0xLfTm5sJmNanourrMjwjcgGtaVNg8Pt6GzUbZ/oXHIdcR94LBdeE0Ea0pBPFOOHzEL5LQwSbAvCJEfw==
+preline@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/preline/-/preline-5.0.0.tgz"
+  integrity sha512-c1ayJoroSzIUcfsBLHrEbYV1NCjCNvjd8l1e/H5EPNQWzZiK1I36eUBgpR+J9scfrf1+1OnXt8Y+EBYUG640cQ==
   dependencies:
-    "@popperjs/core" "^2.11.2"
+    "@floating-ui/dom" "^1.6.13"
+    "@types/culori" "^4.0.1"
+    apexcharts "^4.5.0"
+    culori "^4.0.2"
+    datatables.net "^2.3.5"
+    datatables.net-dt "^2.2.2"
+    dropzone "^6.0.0-beta.2"
+    nouislider "^15.8.1"
+    vanilla-calendar-pro "^3.0.4"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -1895,6 +2000,11 @@ util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+vanilla-calendar-pro@^3.0.4:
+  version "3.3.2"
+  resolved "https://registry.npmjs.org/vanilla-calendar-pro/-/vanilla-calendar-pro-3.3.2.tgz"
+  integrity sha512-RaLpDtvQFeKi0ajOpGBedLNrr0YoiYAF+0sppk4XZV/U57AuihJIhw8h2whUvIG1ZSR3LrdSXk3lHLkCPGlHvg==
 
 vite@^5.4.8:
   version "5.4.9"
