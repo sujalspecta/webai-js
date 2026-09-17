@@ -22,7 +22,7 @@
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "react-helmet-async": "^3.0.0",
-    "react-router-dom": "^6.27.0",
+    "react-router-dom": "^7.18.4",
     "react-text-typist": "^1.1.8",
     "swiper": "^11.1.14",
     "tailwind-merge": "^2.5.4"
